@@ -1,7 +1,7 @@
 To add git repository
 git clone ssh url
 
-create ssh on git bash(windos git installer and manager)
+create ssh on git bash(windows git installer and manager)
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com" paste it on git bash
 git config --global user.name "Abid-Noyon" 
 git config --global user.email "abidnoyon49@gmail.com"
