@@ -1,0 +1,65 @@
+To add git repository
+git clone ssh url
+
+create ssh on git bash(windos git installer and manager)
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com" paste it on git bash
+git config --global user.name "Abid-Noyon" 
+git config --global user.email "abidnoyon49@gmail.com"
+
+Write and update files
+git status
+git add .
+git commit -m "update index.html" -m "second update"
+git push
+
+Create repository on local machine and update on github
+git remote add origin url
+git remote -v       check if add or not
+git init
+git status
+git commit -m "update index.thml" -m "second update"
+git push origin master
+git push -u origin master      next time just write git push -u to upsream as origin master or also use below code to set origin as master
+git push --set-upstream origin master
+
+Proccess to add or contribute on others code
+write code
+commit changes
+pull request
+write more code
+commit changes
+push changes
+make pull request
+
+Making new braches for future update to main /master braches or to work together
+git branch
+git checkout -b name-of-a-new-branch
+git checkout master   use to swith from different braches and edit
+git diff name-of-a-new-branch  to see difference among different branches
+q to get out 
+git push form feature branch
+git push --set-upstream origin future-index-update
+git push -u origin future-index-update
+git branch -d future-index-update delete any branch after compleation
+git diff to see defference
+git commit -am "add hello world" only modified file will be added and commit at the same time this is a shortcut
+git reset README.md to reset a modified file before commit
+git reset HEAD~1 to undo last commit
+git log to see all commits
+git reset 9a31c957e988892e32da32d30b7561ebd2aa7ace this number is a commit, you can find it on git log and use it to reset any commit
+git reset --hard 9a31c957e988892e32da32d30b7561ebd2aa7ace like this git reset --hard commit-number  you can completely remove that commit from your local machine
+
+Some tips
+Fork in GitHub
+
+Fork is used to send a request to get access to the repository and make some changes 
+After getting access to a repository you can edit any thing and send a poll request to the owner of the repository 
+If the owner think its a good change that make the code work better then the owner can add your changes to the main branches or what everever their master or main branch is
+
+This proccess is very useful when a team work together for a project
+everyone make changes to the code and master takes decision what code to keep 
+That make the work fluent.
+
+
+Thanks for reading and giving your precious time. I hope this will help you to start your coding journey.
+# I will update this command time to time
