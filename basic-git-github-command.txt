@@ -30,6 +30,7 @@ write more code
 commit changes
 push changes
 make pull request
+git pull name of the branch
 
 Making new braches for future update to main /master braches or to work together
 git branch
@@ -41,7 +42,8 @@ git push form feature branch
 git push --set-upstream origin future-index-update
 git push -u origin future-index-update
 git branch -d future-index-update delete any branch after compleation
-git diff to see defference
+git diff branch name to see defference
+git merge main or master which branch you want to merge after that push it to the master or main branch then onwer will see and add it to the main branch
 git commit -am "add hello world" only modified file will be added and commit at the same time this is a shortcut
 git reset README.md to reset a modified file before commit
 git reset HEAD~1 to undo last commit
