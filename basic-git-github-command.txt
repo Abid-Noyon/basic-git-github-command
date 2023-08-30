@@ -1,8 +1,9 @@
 To add git repository
 git clone ssh url
 
-create ssh on git bash(windows git installer and manager) by below command and asign it to your github profile
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com" paste it on git bash
+create ssh key on git bash, After installing git.there will be git bash on your computer 
+by below command
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com" paste it on git bash assign public key on github profile
 ssh-keygen -t rsa -b 4096 -C "abidnoyon49@gmail.com"
 git config --global user.name "Abid-Noyon" 
 git config --global user.email "abidnoyon49@gmail.com"
